@@ -65,3 +65,11 @@ img {
 .content2{
 	font-size:1rem;
 }
+
+.table table{
+	border-collapse:collapse;
+table th {
+
+.line{
+	border-right: 1px solid #000;
+}
