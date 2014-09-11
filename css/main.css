@@ -37,7 +37,7 @@ img {
 .figure figcaption{
 	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	color:#FFFFFF;
-	position: fixed;
+	position: absolute;
 	margin-top: -4rem;
 	margin-left: 3%;
 	margin-right: 7%;
@@ -52,7 +52,6 @@ img {
 .content table{
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align:left;
-	padding: 0.5rem 1rem;
 	width: 100%;
 }
 
@@ -66,10 +65,15 @@ img {
 	font-size:1rem;
 }
 
-.table table{
+.table{
 	border-collapse:collapse;
-table th {
+	margin-left: 1%;
+}
 
 .line{
-	border-right: 1px solid #000;
+	border-right: 1px solid #989898;
+}
+
+.table td,th{
+	padding-left: 2%;
 }
